@@ -1,8 +1,8 @@
 import { ExpoConfig } from 'expo/config'
 
 export default (): ExpoConfig => ({
-  name: 'Native TS',
-  slug: 'native-ts',
+  name: 'Expo TS',
+  slug: 'expo-ts',
   version: '1.0.0',
   orientation: 'default',
   userInterfaceStyle: 'dark',
@@ -16,7 +16,7 @@ export default (): ExpoConfig => ({
   },
 
   android: {
-    package: 'com.anonymous.nativets',
+    package: 'com.open-source.expo-ts',
     adaptiveIcon: {
       foregroundImage: './assets/adaptive-icon.png',
       backgroundColor: '#ffffff',
