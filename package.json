@@ -5,11 +5,10 @@
   "scripts": {
     "dev": "expo start",
     "serve": "npx serve web-build --single",
-    "build:web": "expo export:web",
-    "build:android": "expo run:android",
-    "build:ios": "expo run:ios",
     "android": "expo run:android",
-    "ios": "expo run:ios"
+    "ios": "expo run:ios",
+    "build:web": "expo export:web",
+    "build:android": "eas build"
   },
   "dependencies": {
     "expo": "~49.0.11",

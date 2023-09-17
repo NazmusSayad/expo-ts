@@ -16,7 +16,7 @@ export default (): ExpoConfig => ({
   },
 
   android: {
-    package: 'com.open-source.expo-ts',
+    package: 'com.expo.boilerplate',
     adaptiveIcon: {
       foregroundImage: './assets/adaptive-icon.png',
       backgroundColor: '#ffffff',
@@ -27,5 +27,11 @@ export default (): ExpoConfig => ({
   },
   web: {
     favicon: './assets/favicon.png',
+  },
+
+  extra: {
+    eas: {
+      projectId: '8c72d69a-b0c9-4210-8f7e-2ca7d62855dc',
+    },
   },
 })
